@@ -28,3 +28,9 @@ braindecode==0.4.7
 python==3.8
 pytorch==2.2.2
 pytorch-metric-learning==2.6.0
+
+The following evaluation metrics are reported in this work:
+
+- **Accuracy**: the test accuracy at the epoch with the lowest training loss
+- **Average Accuracy**: the average test accuracy over epochs 401–500
+- **Max Accuracy**: the highest test accuracy achieved over 500 epochs
