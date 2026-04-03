@@ -1,4 +1,4 @@
-# MTML
+# Mirror Triplet Metric Loss for Motor Imagery EEG Decoding
 ## Datasets
 
 This project is evaluated on two publicly available motor imagery EEG datasets: **BCI Competition IV Dataset 2A** and the **High-Gamma Dataset**.
