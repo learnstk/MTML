@@ -18,3 +18,13 @@ Following the standard split used in our experiments, the first **11 runs** (**8
 ### Preprocessing Used in This Work
 
 To preserve the feature learning capability of the EEG models, only minimal preprocessing was applied. Specifically, we extracted a **4.5 s EEG segment** from **0.5 s before** to **4 s after** the onset of the motor imagery cue. The EEG signals were then filtered using either a **0–38 Hz** bandpass filter or a **4–38 Hz** bandpass filter before being fed into the feature extractor.
+
+### Recommended dependencies
+
+You can install the required Python packages with:
+
+```bash
+braindecode==0.4.7
+python==3.8
+pytorch==2.2.2
+pytorch-metric-learning==2.6.0
