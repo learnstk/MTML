@@ -23,14 +23,25 @@ To preserve the feature learning capability of the EEG models, only minimal prep
 
 You can install the required Python packages with:
 
-```bash
-braindecode==0.4.7
+
+braindecode==0.4.7 
 python==3.8
 pytorch==2.2.2
 pytorch-metric-learning==2.6.0
 
 The following evaluation metrics are reported in this work:
 
-- **Accuracy**: the test accuracy at the epoch with the lowest training loss
-- **Average Accuracy**: the average test accuracy over epochs 401–500
-- **Max Accuracy**: the highest test accuracy achieved over 500 epochs
+- Accuracy: the test accuracy at the epoch with the lowest training loss
+- Average Accuracy: the average test accuracy over epochs 401–500
+- Max Accuracy: the highest test accuracy achieved over 500 epochs
+
+### Expected Outputs
+
+The expected output in this work is the Average Accuracy of EEGConformer with MTML on the two datasets.
+
+- BCI 2A
+  - EEGConformer-0 HZ: 66.44%
+  - EEGConformer-4 HZ: 63.49%
+- High-Gamma
+  - EEGConformer-0 HZ: 88.94%
+  - EEGConformer-4 HZ: 91.15%
